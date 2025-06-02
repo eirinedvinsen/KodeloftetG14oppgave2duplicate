@@ -46,11 +46,24 @@ button {
   height: 1024px;
 }
 
+@media (max-width: 627px) {
+  .heroBackground {
+    min-width: 627px;
+    height: 828px;
+  }
+}
+
+
 h1{
   display: flex;
   justify-content: center;
   background-color: rgb(0, 44, 0, 0.6);
   font-size: 72px;
+}
+@media (max-width: 627px) {
+  h1 {
+    font-size: 30px;
+  }
 }
 
 .hero{
@@ -60,11 +73,6 @@ h1{
 
 }
 
-@media (max-width: 627px) {
-  .heroBackground {
-    max-width: 0px;
-  }
-}
 
 .heroInfo {
   background-color: rgb(0, 44, 0);
