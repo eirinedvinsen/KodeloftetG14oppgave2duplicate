@@ -1,0 +1,116 @@
+body {
+  background-color: rgb(0, 44, 0);
+  color: beige;
+}
+
+img {
+  max-width: 500px;
+}
+@media (max-width: 627px) {
+  img {
+    max-width: 300px;
+  }
+}
+
+header {
+  background: rgb(0, 44, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.navigationList {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+}
+
+button {
+  background-color: rgb(0, 44, 0);
+  border: none;
+  color: beige;
+  padding: 10px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.hero {
+  display: grid;
+  justify-content: center;
+}
+
+.heroBackground {
+  background-image: url("Oversiktbilete.JPG");
+  background-attachment: fixed;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+
+@media (max-width: 627px) {
+  .heroBackground {
+    max-width: 0px;
+  }
+}
+
+.heroInfo {
+  background-color: rgb(0, 44, 0);
+}
+
+.about {
+  display: grid;
+  justify-content: center;
+}
+
+.productsHeader {
+  display: grid;
+  justify-content: center;
+}
+
+.productContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.productOne {
+  max-width: 500px;
+}
+
+.productTwo {
+  max-width: 500px;
+}
+
+.productThree {
+  max-width: 500px;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+}
+
+.aboutContent {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+}
+h4{
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.footerContent{
+  display: flex;
+  justify-content: center;
+}
+.gitHub{
+  filter: opacity(90%);
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  
+}
