@@ -5,7 +5,7 @@
 }
 
 .fullScreen {
-  min-height: var(--fullScreen);
+  min-height: 100vh;
 }
 
 .flexTrueCenter {
@@ -144,10 +144,10 @@ h4{
   display: flex;
   justify-content: center;
 }
+
 .gitHub{
   filter: opacity(90%);
   max-width: 300px;
   display: flex;
-  justify-content: center;
-  
+  justify-content: center; 
 }
